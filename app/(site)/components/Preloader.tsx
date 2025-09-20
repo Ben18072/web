@@ -11,7 +11,10 @@ export function Preloader() {
   useEffect(() => {
     let cancelled = false;
     const done = () => !cancelled && setReady(true);
-    const fonts = (document as any).fonts;
+    // Access document.fonts with a safe type to avoid any
+    const fonts: FontFaceSet | undefined =
+      (typeof document !== "undefined" && (document as Document & { fonts?: FontFaceSet }).fonts) ||
+      undefined;
 
     const timer = setTimeout(done, 1200);
     if (fonts && fonts.ready) {
