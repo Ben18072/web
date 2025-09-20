@@ -23,8 +23,8 @@ export function Poster() {
           transition={{ delay: prefersReduced ? 0 : 2.1, duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
         >
           <Image
-            src="/assets/images/hero.webp"
-            alt="Featured object"
+            src="/assets/images/ljusdal-theme.webp"
+            alt="LJUSDAL hero image"
             fill
             sizes="(max-width: 900px) 90vw, 600px"
             priority
