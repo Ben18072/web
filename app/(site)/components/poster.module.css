@@ -2,7 +2,6 @@
   display: grid;
   place-items: center;
   padding: var(--space-16) var(--space-6);
-  position: relative;
 }
 
 .poster {
@@ -10,8 +9,8 @@
   width: min(100%, 820px);
   background: #fff;
   border-radius: 2px;
+  padding: var(--space-12) var(--space-6);
   box-shadow: 0 1px 0 rgba(0,0,0,.06);
-  overflow: hidden;
 }
 
 .topWord,
@@ -24,15 +23,14 @@
   line-height: .9;
 }
 
-.topWord { text-align: left; opacity: .25; }
-.bottomWord { text-align: left; margin-top: var(--space-12); opacity: .25; }
-
-.frame { position: relative; width: 100%; }
+.topWord { text-align: left; }
+.bottomWord { text-align: left; margin-top: var(--space-12); }
 
 .figure {
   position: relative;
   width: 100%;
   aspect-ratio: 3/4;
+  margin: var(--space-8) 0;
   overflow: hidden;
 }
 
@@ -49,7 +47,7 @@
 }
 
 @media (max-width: 640px) {
-  .poster { }
+  .poster { padding: var(--space-8) var(--space-4); }
   .metaStrip { grid-template-columns: 1fr 1fr; row-gap: var(--space-6); }
 }
 

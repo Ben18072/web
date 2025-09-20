@@ -2,11 +2,18 @@
 
 import Link from "next/link";
 import { CityClock } from "./CityClock";
+import { motion, useReducedMotion } from "framer-motion";
 import styles from "./header.module.css";
 
 export function Header() {
+  const prefersReduced = useReducedMotion();
   return (
-    <header className={styles.header}>
+    <motion.header
+      className={styles.header}
+      initial={{ opacity: prefersReduced ? 1 : 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ delay: prefersReduced ? 0 : 2.15, duration: 0.6 }}
+    >
       <div className={styles.brandArea}>
         <Link href="/" aria-label="LJUSDAL home" className={styles.brand}>
           LJUSDAL
@@ -26,7 +33,7 @@ export function Header() {
       <div className={styles.clockWrap}>
         <CityClock cityLabel="frankfurt, de" timeZone="Europe/Berlin" />
       </div>
-    </header>
+    </motion.header>
   );
 }
 
