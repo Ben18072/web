@@ -41,7 +41,7 @@ export function Poster() {
         animate={{ opacity: 1 }}
         transition={{ delay: prefersReduced ? 0 : 2.3, duration: 0.6 }}
       >
-        <div>functional digital objects</div>
+        <div>functional digital creations</div>
         <div>Frankfurt, DE</div>
         <div>
           <a href="https://www.instagram.com/benljusdal?igsh=MWg4ZWhyYWVrZGJ6Zg==" target="_blank" rel="noreferrer">instagram</a>
