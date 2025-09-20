@@ -20,14 +20,14 @@ export function Header() {
         </Link>
       </div>
       <nav className={styles.nav} aria-label="Primary">
-        <Link href="/furniture" className={styles.navLink}>
-          Furniture,
+        <Link href="/terms" className={styles.navLink}>
+          Terms,
         </Link>
-        <Link href="/catalogue" className={styles.navLink}>
-          Index,
+        <Link href="/privacy" className={styles.navLink}>
+          Privacy,
         </Link>
-        <Link href="/studio" className={styles.navLink}>
-          Studio
+        <Link href="/imprint" className={styles.navLink}>
+          Imprint
         </Link>
       </nav>
       <div className={styles.clockWrap}>
