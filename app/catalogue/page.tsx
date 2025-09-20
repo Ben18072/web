@@ -4,78 +4,95 @@ function PrivacyContent() {
     <article style={{ fontFamily: "var(--font-serif)", marginTop: 12, lineHeight: 1.65 }}>
       <h2 style={{ fontFamily: "var(--font-sans)", fontSize: 18 }}>1. Introduction</h2>
       <p>
-        We provide information about the collection of personal data when using our website and our social media
-        profiles. Personal data is any data relating to an identifiable natural person (e.g., name or IP address).
+      In the following, we provide information about the collection of personal data when using our website and our social media
+        profiles. Personal data is any data that can be related to a specific natural person, such as their name or IP address.
       </p>
 
       <h3 style={{ fontFamily: "var(--font-sans)", fontSize: 16 }}>1.1. Contact details</h3>
       <p>
-        Controller: Benjamin Griebeler (LJUSDAL), Tornowstraße 53, 60486 Frankfurt am Main, Germany — Email:
+      The controller within the meaning of Art. 4 para. 7 EU General Data Protection Regulation (GDPR) is Benjamin Griebeler (LJUSDAL), Tornowstraße 53, 60486 Frankfurt am Main, Germany — Email:
         info@ljusdal.app
       </p>
 
       <h3 style={{ fontFamily: "var(--font-sans)", fontSize: 16 }}>1.2. Scope, purposes, legal bases</h3>
       <ul>
-        <li>Art. 6(1)(a) GDPR — consent</li>
-        <li>Art. 6(1)(b) GDPR — contract or pre‑contract measures</li>
-        <li>Art. 6(1)(c) GDPR — legal obligations</li>
-        <li>Art. 6(1)(f) GDPR — legitimate interests (e.g., technically necessary cookies)</li>
+        <li>Art. 6 para. 1 s. 1 lit. a GDPR serves as our legal basis for processing operations for which we obtain consent.</li>
+        <li>Art. 6 para. 1 s. 1 lit. b GDPR is the legal basis insofar as the processing of personal data is necessary for the performance of a contract, e.g. if a site visitor purchases a product from us or we perform a service for him. This legal basis also applies to processing that is necessary for pre-contractual measures, such as in the case of inquiries about our products or services.</li>
+        <li>Art. 6 para. 1 s. 1 lit. c GDPR applies if we fulfill a legal obligation by processing personal data, as may be the case, for example, in tax law.</li>
+        <li>Art. 6 para. 1 s. 1 lit. f GDPR serves as the legal basis when we can rely on legitimate interests to process personal data, e.g. for cookies that are necessary for the technical operation of our website.</li>
       </ul>
 
       <h3 style={{ fontFamily: "var(--font-sans)", fontSize: 16 }}>1.3. Data processing outside the EEA</h3>
       <p>
-        Transfers outside the EEA rely on adequacy decisions or Standard Contractual Clauses; US transfers may rely on
-        the EU‑US Data Privacy Framework where certified.
+      Insofar as we transfer data to service providers or other third parties outside the EEA, the security of the data during the transfer is guaranteed by adequacy decisions of the EU Commission, insofar as they exist (e.g. for Great Britain, Canada and Israel) (Art. 45 para. 3 GDPR).
+In the case of data transfer to service providers in the USA, the legal basis for the data transfer is an adequacy decision of the EU Commission if the service provider has also certified itself under the EU US Data Privacy Framework.
+In other cases (e.g. if no adequacy decision exists), the legal basis for the data transfer is usually, i.e. unless we indicate otherwise, standard contractual clauses. These are a set of rules adopted by the EU Commission and are part of the contract with the respective third party. According to Art. 46 para. 2 lit. b GDPR, they ensure the security of the data transfer. Many of the providers have given contractual guarantees that go beyond the standard contractual clauses to protect the data. These include, for example, guarantees regarding the encryption of data or regarding an obligation on the part of the third party to notify data subjects if law enforcement agencies wish to access the respective data.
+
       </p>
 
       <h3 style={{ fontFamily: "var(--font-sans)", fontSize: 16 }}>1.4. Storage duration</h3>
-      <p>We delete data when no longer necessary unless legal retention applies; otherwise processing is restricted.</p>
+      <p>Unless expressly stated in this privacy policy, the data stored by us will be deleted as soon as they are no longer required for their intended purpose and no legal obligations to retain data conflict with the deletion. If the data are not deleted because they are required for other and legally permissible purposes, their processing is restricted, i.e. the data are blocked and not processed for other purposes. This applies, for example, to data that must be retained for commercial or tax law reasons.</p>
 
       <h3 style={{ fontFamily: "var(--font-sans)", fontSize: 16 }}>1.5. Rights of data subjects</h3>
+      <p>Data subjects have the following rights against us regarding their personal data:</p>
       <ul>
-        <li>Access, rectification, erasure, restriction, objection, portability, withdrawal of consent</li>
-        <li>Right to complain to a supervisory authority</li>
+        <li>Right of access,</li>
+        <li>Right to correction or deletion,</li>
+        <li>Right to limit processing,</li>
+        <li>Right to object to the processing,</li>
+        <li>Right to data transferability,</li>
+        <li>Right to revoke a given consent at any time,</li>
       </ul>
+      <p>Data subjects also have the right to complain to a data protection supervisory authority about the processing of their personal data. Contact details of the data protection supervisory authorities are available at https://www.bfdi.bund.de/EN/Service/Anschriften/Laender/Laender-node.html.</p>
 
       <h3 style={{ fontFamily: "var(--font-sans)", fontSize: 16 }}>1.6. Obligation to provide data</h3>
-      <p>Some data is necessary to enter or perform relationships; mandatory fields are marked.</p>
+      <p>Within the scope of the business or other relationship, customers, prospective customers or third parties need to provide us with personal data that is necessary for the establishment, execution and termination of a business or other relationship or that we are legally obliged to collect. Without this data, we will generally have to refuse to conclude the contract or to provide a service or will no longer be able to perform an existing contract or other relationship.
+         Mandatory data are marked as such.
+      </p>
 
-      <h3 style={{ fontFamily: "var(--font-sans)", fontSize: 16 }}>1.7. No automated decision‑making</h3>
-      <p>We generally do not use automated decisions under Art. 22 GDPR. If used, we will inform as required by law.</p>
+      <h3 style={{ fontFamily: "var(--font-sans)", fontSize: 16 }}>1.7. No automated decision‑making in individual cases</h3>
+      <p>As a matter of principle, we do not use a fully automated decision-making process in accordance with article 22 GDPR to establish and implement the business or other relationship. Should we use these procedures in individual cases, we will inform of this separately if this is required by law.</p>
 
-      <h3 style={{ fontFamily: "var(--font-sans)", fontSize: 16 }}>1.8. Contacting us</h3>
+      <h3 style={{ fontFamily: "var(--font-sans)", fontSize: 16 }}>1.8. Making contact</h3>
       <p>
-        Data provided when contacting us is processed to answer inquiries (Art. 6(1)(f) GDPR) and deleted when no longer
-        necessary.
+      When contacting us, e.g. by e-mail or telephone, the data provided to us (e.g. names and e-mail addresses) will be stored by us in order to answer questions. The legal basis for the processing is our legitimate interest (Art. 6 para. 1 s. 1 lit. f GDPR) to answer inquiries directed to us. We delete the data accruing in this context after the storage is no longer necessary or restrict the processing if there are legal retention obligations.
       </p>
 
       <h3 style={{ fontFamily: "var(--font-sans)", fontSize: 16 }}>1.9. Competitions</h3>
       <p>
-        Competition data is processed to determine and notify winners, then deleted. Legitimate interest: interaction
-        and customer acquisition.
+      Occasionally, we offer competitions via our website or in other ways. We process the data requested in these competitions in order to determine and notify the winners. Afterwards, we delete the data. It may also be that we only offer competitions for existing customers. In this case, we only process the name to determine the winners and the contact data to notify the winners. It is our legitimate interest to offer competitions to attract customers or to interact with our existing customers. The legal basis for data processing is Art. 6 para. 1 s. 1 lit. f GDPR.
       </p>
 
       <h3 style={{ fontFamily: "var(--font-sans)", fontSize: 16 }}>1.10. Customer surveys</h3>
-      <p>Survey data helps understand user needs; deleted after evaluation.</p>
+      <p>From time to time, we conduct customer surveys to get to know our customers and their wishes better. In doing so, we collect the data requested in each case. It is our legitimate interest to get to know our customers and their wishes better, so that the legal basis for the associated data processing is Art. 6 para. 1 s. 1 lit f GDPR. We delete the data when the results of the surveys have been evaluated.</p>
 
       <h2 style={{ fontFamily: "var(--font-sans)", fontSize: 18 }}>2. Newsletter</h2>
       <p>
-        We may send offers to existing customers (Art. 6(1)(f) GDPR). Users can object at any time. With consent, we
-        measure opens/clicks (Art. 6(1)(a) GDPR).
+      We reserve the right to inform customers who have already used services from us or purchased goods from time to time by e-mail or other means about our offers, if they have not objected to this. The legal basis for this data processing is Art. 6 para. 1 s. 1 lit. f GDPR. Our legitimate interest is to conduct direct advertising (recital 47 GDPR). Customers can object to the use of their e-mail address for advertising purposes at any time without incurring additional costs, for example via the link at the end of each e-mail or by sending an e-mail to our above-mentioned e-mail address.
+Based on the consent of the recipients (Art. 6 para. 1 s. 1 lit. a GDPR), we also measure the opening and click-through rate of our newsletters to understand what is relevant for our audience.
+
       </p>
 
-      <h2 style={{ fontFamily: "var(--font-sans)", fontSize: 18 }}>3. Website data processing</h2>
+      <h2 style={{ fontFamily: "var(--font-sans)", fontSize: 18 }}>3. Data processing on our website</h2>
       <h3 style={{ fontFamily: "var(--font-sans)", fontSize: 16 }}>3.1. Informational use</h3>
       <p>
-        When visiting our site without submitting data, your browser transmits technical data (IP, timestamp, browser,
-        OS, referrer, host). Legal basis: Art. 6(1)(f) GDPR.
+      When you visit our website for informational purposes only (i.e. without actively transmitting data via a contact form or similar), certain data are automatically transmitted to our server by your browser in order to ensure technical functionality, stability, and security. These include:
       </p>
+      <ul>
+        <li>IP address</li>
+        <li>Date and time of the request</li>
+        <li>Browser type and version</li>
+        <li>Operating system</li>
+        <li>Referrer URL</li>
+        <li>Host name of the accessing device</li>
+      </ul>
+      <p>This data is processed on the basis of Art. 6 para. 1 lit. f GDPR (legitimate interest in secure and stable website operation).</p>
 
-      <h2 style={{ fontFamily: "var(--font-sans)", fontSize: 18 }}>4. Social media</h2>
+      <h2 style={{ fontFamily: "var(--font-sans)", fontSize: 18 }}>4. Data processing on social media platforms</h2>
       <p>
-        Operators of social networks process data for advertising/profiling and may use cookies and combine data. Some
-        providers or servers may be outside the EU. If you contact us via profiles, we process the provided data to
-        respond (Art. 6(1)(f) GDPR).
+      We are represented in social media networks in order to present our organization and our services there. The operators of these networks regularly process their users' data for advertising purposes. Among other things, they create user profiles from their online behavior, which are used, for example, to show advertising on the pages of the networks and elsewhere on the Internet that corresponds to the interests of the users. To this end, the operators of the networks store information on user behavior in cookies on the users' computers. Furthermore, it cannot be ruled out that the operators merge this information with other data. Users can obtain further information and instructions on how to object to processing by the site operators in the data protection declarations of the respective operators listed below. It is also possible that the operators or their servers are located in non-EU countries, so that they process data there. This may result in risks for users, e.g. because it is more difficult to enforce their rights or because government agencies access the data.
+If users of the networks contact us via our profiles, we process the data provided to us in order to respond to the inquiries. This is our legitimate interest, so that the legal basis is Art. 6 para. 1 s. 1 lit. f GDPR.
+
       </p>
       <ul>
         <li>Instagram — Meta Platforms Ireland Ltd. — https://help.instagram.com/519522125107875</li>
@@ -84,11 +101,11 @@ function PrivacyContent() {
         <li>X (Twitter) — Twitter Inc. — https://twitter.com/de/privacy — Ads: https://twitter.com/personalization</li>
       </ul>
 
-      <h2 style={{ fontFamily: "var(--font-sans)", fontSize: 18 }}>5. Changes</h2>
-      <p>We may change this policy with effect for the future; the current version is available here.</p>
+      <h2 style={{ fontFamily: "var(--font-sans)", fontSize: 18 }}>5. Changes to this privacy policy</h2>
+      <p>We reserve the right to change this privacy policy with effect for the future. A current version is always available here.</p>
 
-      <h2 style={{ fontFamily: "var(--font-sans)", fontSize: 18 }}>6. Questions</h2>
-      <p>For questions or comments, contact us using the details above.</p>
+      <h2 style={{ fontFamily: "var(--font-sans)", fontSize: 18 }}>6. Questions and comments</h2>
+      <p>If you have any questions or comments regarding this privacy policy, please feel free to contact us using the contact information provided above.</p>
     </article>
   );
 }
