@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 export default function Terms() {
   return (
     <main className="container" style={{ padding: "48px 24px" }}>
