@@ -1,5 +1,4 @@
-/* eslint-disable react/no-unescaped-entities */
-function PrivacyContent() {
+export function PrivacyContent() {
   return (
     <article style={{ fontFamily: "var(--font-serif)", marginTop: 12, lineHeight: 1.65 }}>
       <h2 style={{ fontFamily: "var(--font-sans)", fontSize: 18 }}>1. Introduction</h2>
@@ -90,15 +89,6 @@ function PrivacyContent() {
       <h2 style={{ fontFamily: "var(--font-sans)", fontSize: 18 }}>6. Questions</h2>
       <p>For questions or comments, contact us using the details above.</p>
     </article>
-  );
-}
-
-export default function Privacy() {
-  return (
-    <main className="container" style={{ padding: "48px 24px" }}>
-      <h1 style={{ fontFamily: "var(--font-display)", fontSize: "clamp(28px,6vw,72px)" }}>Privacy Policy</h1>
-      <PrivacyContent />
-    </main>
   );
 }
 
