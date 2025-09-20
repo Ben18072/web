@@ -46,13 +46,13 @@ Our Apps are made available through third-party platforms such as the Apple App 
         <p>LJUSDAL makes reasonable efforts to ensure that there are no errors or inaccuracies in the Apps regarding pricing and your purchase and use of the Apps.</p>
         <h2 style={{ fontFamily: "var(--font-sans)", fontSize: 18, marginTop: 20 }}>8. Paid Features</h2>
         <p>Some of our Apps offer paid features, which may include subscriptions, products, and other services or virtual items. You can “buy” or “earn” these paid features in our Apps. All terms of these terms and conditions for using the Apps also apply to the use of paid features.</p>
-        <h3 style={{ fontFamily: "var(--font-sans)", fontSize: 16 }}>Pricing</h3>
+        <h3 style={{ fontFamily: "var(--font-sans)", fontSize: 16, marginTop: 16 }}>Pricing</h3>
         <p>Prices are indicated at the time of purchase and may vary by country. The same paid features may be offered by third parties at different prices. Some paid features may be available for pre-sale. Prices and availability are subject to change without notice. Although we strive to provide accurate information, there may be errors or outdated information such as prices. We may try to contact you to correct the error or cancel your order if your payment card or method has not yet been charged.</p>
-        <h3 style={{ fontFamily: "var(--font-sans)", fontSize: 16 }}>Risk of Loss</h3>
+        <h3 style={{ fontFamily: "var(--font-sans)", fontSize: 16, marginTop: 16 }}>Risk of Loss</h3>
         <p>The risk of loss or damage to paid features passes to you upon electronic transmission of the paid feature to you.</p>
-        <h3 style={{ fontFamily: "var(--font-sans)", fontSize: 16 }}>Subscriptions</h3>
+        <h3 style={{ fontFamily: "var(--font-sans)", fontSize: 16, marginTop: 16 }}>Subscriptions</h3>
         <p>If you purchase a subscription or start a free trial, the provisions of this section 5 also apply to you. Passes and memberships are referred to as "Subscription" in these terms. Subscriptions provide access to certain services, software, and content available to subscribers (“Features”). These Features are licensed to you under these terms, not sold, and your license to use these Features expires at the end of your subscription term or is immediately terminated if you violate these terms. Subscriptions are tied to your account and are non-transferable. Subscriptions and Features may not be available in all countries, and certain Features may not be compatible with all products.</p>
-        <h3 style={{ fontFamily: "var(--font-sans)", fontSize: 16 }}>Automatic Renewals and Payments</h3>
+        <h3 style={{ fontFamily: "var(--font-sans)", fontSize: 16, marginTop: 16 }}>Automatic Renewals and Payments</h3>
         <p>If automatic renewal is enabled, your subscription will automatically renew at the end of the current subscription term for successive periods corresponding to the renewal term at the then-current price, plus any applicable taxes.</p>
         <h2 style={{ fontFamily: "var(--font-sans)", fontSize: 18, marginTop: 20 }}>9. Refund</h2>
         <p>LJUSDAL is entitled to cancel a payment and refund you the amount including any transaction fees incurred by payment providers (as defined below) if we have reason to believe that (a) a purchase is incomplete, or (b) a purchase is fraudulent or suspected to be fraudulent. Refunds are processed through the App Store where the original purchase of the paid feature took place and was paid.</p>
