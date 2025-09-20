@@ -38,9 +38,7 @@ export function Preloader() {
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
           transition={{ duration: prefersReduced ? 0.01 : 0.6, ease: [0.22, 1, 0.36, 1] }}
-        >
-          <div className={styles.wordmark}>LJUSDAL</div>
-        </motion.div>
+        />
       )}
     </AnimatePresence>
   );
