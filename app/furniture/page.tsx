@@ -1,8 +1,8 @@
-export default function Furniture() {
+export default function Terms() {
   return (
     <main className="container" style={{ padding: "48px 24px" }}>
-      <h1 style={{ fontFamily: "var(--font-display)", fontSize: "clamp(28px,6vw,72px)" }}>LJUSDAL</h1>
-      <p style={{ fontFamily: "var(--font-serif)", marginTop: 12 }}>
+      <h1 style={{ fontFamily: "var(--font-display)", fontSize: "clamp(28px,6vw,72px)" }}>Terms & Conditions</h1>
+      <div style={{ fontFamily: "var(--font-serif)", marginTop: 12, lineHeight: 1.6, whiteSpace: "pre-wrap" }}>
       1. General
 
 These are the Terms and Conditions of Benjamin Griebeler, acting as an individual app developer, operating under the business name Ljusdal (hereinafter referred to as “LJUSDAL”, “we”, or “us”). These Terms govern the legal relationship between LJUSDAL and you (hereinafter “user” or “you”) when you use one of our mobile applications, including but not limited to utility, productivity, lifestyle, or entertainment apps (hereinafter individually the “App” or collectively the “Apps”).
@@ -129,7 +129,7 @@ Users have the right to object to the changes within 30 days of receiving the no
 25. Entire Agreement
 These terms and conditions constitute the entire agreement between us regarding the matters described herein and exclude all other terms and conditions.
 
-      </p>
+      </div>
     </main>
   );
 }

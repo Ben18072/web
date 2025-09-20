@@ -1,8 +1,8 @@
-export default function Catalogue() {
+export default function Privacy() {
   return (
     <main className="container" style={{ padding: "48px 24px" }}>
-      <h1 style={{ fontFamily: "var(--font-display)", fontSize: "clamp(28px,6vw,72px)" }}>Index</h1>
-      <p style={{ fontFamily: "var(--font-serif)", marginTop: 12 }}>
+      <h1 style={{ fontFamily: "var(--font-display)", fontSize: "clamp(28px,6vw,72px)" }}>Privacy Policy</h1>
+      <div style={{ fontFamily: "var(--font-serif)", marginTop: 12, lineHeight: 1.6, whiteSpace: "pre-wrap" }}>
       1. Introduction
 In the following, we provide information about the collection of personal data when using
 •	our website ljusdal.app
@@ -80,7 +80,7 @@ We reserve the right to change this privacy policy with effect for the future. A
 6. Questions and comments
 If you have any questions or comments regarding this privacy policy, please feel free to contact us using the contact information provided above.
 
-      </p>
+      </div>
     </main>
   );
 }
