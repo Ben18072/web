@@ -14,6 +14,13 @@ export function Poster() {
         animate={{ opacity: 1, scale: 1 }}
         transition={{ delay: prefersReduced ? 0 : 2.0, duration: 0.9, ease: [0.22, 1, 0.36, 1] }}
       >
+        {/* Rolling paper background */}
+        <motion.div
+          className={styles.paper}
+          initial={{ height: prefersReduced ? "100%" : "0%" }}
+          animate={{ height: "100%" }}
+          transition={{ delay: prefersReduced ? 0 : 0.2, duration: prefersReduced ? 0.01 : 1.6, ease: [0.22, 1, 0.36, 1] }}
+        />
         <div className={styles.topWord}>LJUSDAL</div>
 
         <motion.div
