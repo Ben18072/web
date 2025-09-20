@@ -48,14 +48,14 @@ export function Poster() {
         animate={{ opacity: 1 }}
         transition={{ delay: prefersReduced ? 0 : 2.3, duration: 0.6 }}
       >
-        <div>functional digital creations</div>
-        <div>Frankfurt, DE</div>
-        <div>
+        <div className={`${styles.metaItem} ${styles.hideMobile}`}>functional digital creations</div>
+        <div className={`${styles.metaItem} ${styles.hideMobile}`}>Frankfurt, DE</div>
+        <div className={styles.metaItem}>
           <a href="https://www.instagram.com/benljusdal?igsh=MWg4ZWhyYWVrZGJ6Zg==" target="_blank" rel="noreferrer">instagram</a>
           <span aria-hidden> • </span>
           <a href="mailto:info@ljusdal.app">email</a>
         </div>
-        <div>LJUSDAL ©{new Date().getFullYear()}</div>
+        <div className={styles.metaItem}>LJUSDAL ©{new Date().getFullYear()}</div>
       </motion.div>
     </section>
   );

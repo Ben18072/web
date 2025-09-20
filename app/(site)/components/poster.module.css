@@ -29,7 +29,7 @@
   font-family: var(--font-display);
   font-weight: 400;
   letter-spacing: .01em;
-  color: var(--color-text);
+  color: var(--color-brand-primary);
   font-size: clamp(48px, 14vw, 144px);
   line-height: .9;
   position: relative;
@@ -51,18 +51,21 @@
 .img { object-fit: cover; }
 
 .metaStrip {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  gap: var(--space-3);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-6);
   width: min(100%, 820px);
   margin: var(--space-6) auto 0;
   font-family: var(--font-sans);
   font-size: 13px;
 }
 
+.metaItem { white-space: nowrap; }
+
 @media (max-width: 640px) {
   .poster { padding: var(--space-8) var(--space-4); }
-  .metaStrip { grid-template-columns: 1fr 1fr; row-gap: var(--space-6); }
+  .hideMobile { display: none; }
 }
 
 
